@@ -11,7 +11,12 @@ Links to Review:
 1. What it is
 1. Where did it come from
 1. Why use it
-1. How to get started
+1. Basic Commands
+2. Modes
+3. Inserting
+4. Deleting
+5. Motion
+6. Opening Files
 1. .vimrc
 2. ~/.vim/
 3. Plugins
