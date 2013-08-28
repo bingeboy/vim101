@@ -1,0 +1,289 @@
+NO MOUSE ALLOWWED
+VERB NOUN relationship
+
+Why should you care. VIM is crossplatform and is instealled on almost all webservers.
+Good for your health. Reduces wrist pains. (I've been in physical therapy twice in my career and keeping finders on the keyboards helps
+
+Modes
+
+Insert 
+Normal
+Command - like drasitcally changing the document
+
+Commands:
+:e or :edit then target a file to open
+:tabnew
+:tabe
+:set used to setup things that you normally do with a .vimrc
+:3 = jump to line 3 || 3G will also do the same.
+
+To Transfer from insert mode to command mode
+Esc or Ctrl+[
+
+Command mode movements:
+(recommended to not rely on arrow keys by beginners... not always an easy path.
+
+        k
+        ^
+    h<      >l
+        v
+        j
+
+Always try to avoid using the mouse since it will ultimately confuse you. 
+
+You can also jump quick the folling ways:
+10j - execute j command 10 times
+100l - execute l 100 times.
+:30 - moves cursor to line 30 from any where in the file in command mode.
+
+These moveement already will make you a more productive than another editor. Also the wrist cramps do away.
+
+wWbBe
+
+w - will jump you between words
+W - will jump you between words by white space
+b - do the same as w but backards
+B - will do the opposite of W
+
+Jumping characters
+0 - take you to the first character of the line
+$ - take you to the last character of the line
+^ - first non-blank character of the line
+
+TEST,HERE CAN YOU SEE M!
+
+A word in vim will move you bewteen word that 
+
+-------------------------------------------------------------------------
+Visual Block Mode
+-------------------------------------------------------------------------
+Cntrl+v then use the following keys to select hjklv
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+JUMP BETWEEN CHUNKS OF CODE > FUNCTIONS > ETC This section work in progress
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+
+Start of more advanced stuff here: fFtT
+
+f - Forward until 
+F - Backward until
+t - Forward until ~ this will not include the cursor aka exclusive
+T - Back until ~ this will not include the cursor aka exclusive
+
+Copy Paste
+-----------------------
+
+Load external files into your rc file like bash to keep this in a psuedo module like format.
+
+Example:
+source ~/.vim/startup/commands.vim <- notice these need a .vim extension
+y  -  yank
+yy - yank line Example 2yy will copy 2 lines down this will account the first line as 1 unlike all command in vim that act like array.
+p - paste after cursor
+P - paste before cursor
+
+example: yw - yankword
+
+THis is a test
+THis is a = y3w
+
+These are super powerful and once understood will become ROCKSTAR
+
+Motions
+-----------
+
+gg - top of file
+G - bottom of file
+ggY - will select the entire file
+
+
+SEARCHING COmmands
+Suuports full regular expressions
+/ - Forward Search
+? - Backward Search
+* - word under the cursor THIS IS RANK THE NUMBER COMMAND IN VIM
+g* - word under the cursor (unbounded)
+# - same as * but backward
+g# - unbounded
+n - NExt result forward
+N - Next result Backward:
+\c - case insensetive for current search
+
+Unboudned means that you can search for fragments of words while bound needs to match exactly
+There is also a setting where you can ingorecase 
+Example:
+:set ignorecase - this will allow you toggle between cases
+
+
+
+But it is how you enter insert mode that offers some advantage:
+
+i	insert before character under cursor
+I   insert at first character on line
+s   delete character and instert in character space.
+S   delete line and insert at the begging of the line
+
+a	insert after cursor
+I	insert at beginning of current line
+a   instert mode after character
+A	insert at end of the line
+o	starts insert mode in a new line below current one
+O	insert in a new line above current one
+
+Insert keys:
+iIsSaAoOC
+
+daw - delete word under cursor
+daW - delete WORD under cursor
+
+You can also enter insert mode by replacing existing text at the same time:
+
+ciw	("change inner word") change word under cursor
+ci"	change double-quoted string (but keep the quotes)
+ci(	change text between matching parentheses, also works with brackets
+cc	change whole line::
+------------
+Command mode
+-------------
+gg  top of file
+G   Bottom of file
+u - Undo
+U - Undo all since last write
+Cntrl+r - Redo
+
+Visual Mode
+
+
+
+
+iabbr email design@jpmcgarrity.com
+iabbr funct function(){}
+iabbr ture true
+iabbr flase false
+
+-------------------------------------------------
+MACRO
+|________________________________________________
+How to create macros
+You hit q to record and then q again to stop in normal mode
+To run the macro you hit @ and then the key mapped to the macro
+See you macros by typing :reg or :register
+You can modify the register by using a :let command.
+
+When recording you should bind to a key:
+1q then q to end
+10@1 to run the macro 10 times.
+
+Writing a macro to reg like this
+:let @a=whateveryouwantthemacrotobe
+
+hit q to go into macro mode.
+
+Example: qa <- this sets the registry to a.
+Do something.
+Then hit q again to end the recording. This will work in any mode with anything. insert visual command tab etc... its sick kid!
+
+TO execute the macro you hit the @ key.
+Example @a = @theRegister you saved the macro in.
+
+To execture the macro more than once you can type 4@a to run the macro 4 times.
+
+When making macros you should visualize how the macro will. you need to be procsise with how the 
+
+You can also open registers and modify them.
+
+To edit your macro you type :reg
+
+Also you can copy one macro to another register. something like this: :let @a = @c
+
+-------------------------------------------------
+Plungins
+|________________________________________________
+
+vundle
+pathogen
+
+The above are more or less manditory to install if you want to install other plugins
+So you drop git repos into your bundle and then thats it.
+
+The proper method with git is to use the submodule instead of clone. This way you only pull the latest from the head of the git head.
+Example: cd ~/.vim/plugins && git submodule gitXYZ
+
+OTHER GREAT PLUGINS
+NERDTree <- this allows you to have a project/home directory and also allows you to copy and modify files in an easier method. SUDO IDE
+<leader .N might be a good method to open NERDTree but there might be another method.
+
+EasyMotion
+Will mask your search with the letters that will take you where you want to go.
+
+Powerline
+Pimps out the bottom line of your VIM. There are settings for this that i think go into the rc file
+
+Fugitive
+Actived by the :G then you will see the list of the commands.
+
+
+CntrlP
+Search utility
+
+Running list of Links
+http://rayninfo.co.uk/vimtips.html
+http://vim-adventures.com/
+http://mislav.uniqpath.com/2011/12/vim-revisited/
+http://bytefluent.com/vivify/ <- sweet color selection tool
+
+
+------------------------------------------------------
+VIMRC settings thts are useful 
+------------------------------------------------------
+
+Load external files into your rc file like bash to keep this in a psuedo module like format.
+
+Example:
+source ~/.vim/startup/commands.vim <- notice these need a .vim extension
+
+
+---------------------------------------------------------
+THINGS YOU NEED TO LEARN
+---------------------------------------------------------
+~  - switch case
+~g - NOT SURE
+%  - 
+< - shift left
+> - shift right
+
+
+Deletes:
+---------------------------------------------------------
+
+dap - delete paragraph
+viw - select inner word
+
+
+ClipBoard:
+---------------------------------------------------------
+y  - yank
+yy - yankline
+"*y - copy to system keyboard on osx - (ANNOYING)
+
+---------------------------------------------------------
+---------------------------------------------------------
+
+Tabbing and opening files:
+---------------------------------------------------------
+
+PLUGINS INFO
+---------------------------------------------------------
+NERDTree
+snippets
+
+---------------------------------------------------------
+---------------------------------------------------------
+---------------------------------------------------------
+---------------------------------------------------------
+---------------------------------------------------------
+---------------------------------------------------------
+
+
