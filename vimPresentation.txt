@@ -153,10 +153,14 @@ G   Bottom of file
 u - Undo
 U - Undo all since last write
 Cntrl+r - Redo
-
+:set spell - turn on and off spell check
 Visual Mode
 
-
+Spelling:
+Turn spelling on = :set spell
+]s - next spelling error
+[s - prev spelling error
+z= - spelling suggestions
 
 
 iabbr email design@jpmcgarrity.com
@@ -255,6 +259,16 @@ THINGS YOU NEED TO LEARN
 < - shift left
 > - shift right
 
+Code Folding
+zf - hide code 
+za - show code
+zR - show all hidden
+
+Math
+"=5*5<enter>p - 25
+"=5/5<enter>p - 0
+"=5+5<enter>p - 10
+
 
 Deletes:
 ---------------------------------------------------------
@@ -287,4 +301,23 @@ snippets
 ---------------------------------------------------------
 ---------------------------------------------------------
 
+Code Settings
+[{ - Jump to the begining of a code block.
+]} - Jump to end of code block
 
+[( - Jump to next paran
+]) - Jump to prev param
+ 
+The above two commands will work from anywhere inside the code block.
+
+Use the [( command.
+
+To jump to the end of a C code block (while, switch, if etc), use the ]} command.
+
+The above two commands will work from anywhere inside the code block.
+
+To jump to the end of a C code block (while, switch, if etc), use the ]} command.
+
+The above two commands will work from anywhere inside the code block.
+
+To jump to the end of a parenthesis use the ]) command.
