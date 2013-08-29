@@ -1,0 +1,43 @@
+
+here are seoarch things here
+werwerabbit
+Rabbit
+
+
+/^search start with
+
+
+
+Ctrl+w gf  - open file with name of word selected in new tab.
+
+gt - go top next tab
+
+Open multiple files at ones:
+vim -p file1 file2 files3
+
+That will open all the files at once in tabs
+
+:sort - will sort everythign by alpha/numeric
+:sort u - will sort unique
+
+daw - delete word under cursor 
+caw - insert word under cursor and enter insert mode
+
+Cntrl+p - completion based on whats in file
+
+
+Sometimes you want to turn back time. 
+
+:earlier 1m
+:later 1m
+:undo 
+
+:!% - execute current file
+
+spell reqoninzes functions and var names
+
+
+vim scp://username@servercom/pathtofiles/
+
+Keep a cheat sheet on hand
+Also there in everythign in life there if more than one way to do certain commands so do what youfeel comfortable with and try a couple new commands every week. You will find some you like some on dont think you will ever use. See what works for you. 

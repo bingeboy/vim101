@@ -50,6 +50,7 @@ Jumping characters
 $ - take you to the last character of the line
 ^ - first non-blank character of the line
 
+cw - changeword
 TEST,HERE CAN YOU SEE M!
 
 A word in vim will move you bewteen word that 

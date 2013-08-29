@@ -1,6 +1,8 @@
 vim101
 ======
 
+![VIM Cheat Sheet](http://michael.peopleofhonoronly.com/vim/vim_cheat_sheet_for_programmers_screen.png)
+
 Intro to Vim Presentaion (Currently in the works)
 
 Links to Review:
