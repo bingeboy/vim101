@@ -1,5 +1,5 @@
 #Running list of Search Commands
-
+```
 /searchterm - Basic Search
 /\<searchterm\> - find only the word
 :%s - means search the whole file
@@ -11,5 +11,5 @@
 
 n - next search result
 Xn - specific number in result based on where cursor is
-
+```
 
