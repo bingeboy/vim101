@@ -117,6 +117,7 @@ There is also a setting where you can ingorecase
 Example:
 :set ignorecase - this will allow you toggle between cases
 
+:s/%s/findthis/replacethis
 
 
 But it is how you enter insert mode that offers some advantage:
