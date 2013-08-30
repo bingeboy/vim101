@@ -29,3 +29,18 @@ The following are a list of plugins that I'm currently using. These are just sug
 1. vim-surround
 1. vundle
 1. vundle - Handles plugins
+1. Ag - http://github.com/rking/ag.vim
+
+
+Other things to install from homebrew
+something for compeleting withs and spell check
+tmux
+the_silver_searcher
+
+###Install with Vundle
+
+Add the following lines to your .vimrc.
+
+Bundle 'mattn/webapi-vim'
+Bundle 'mattn/gist-vim'
+Now restart Vim and run :BundleInstall.
