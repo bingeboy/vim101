@@ -81,7 +81,7 @@ Has been tested and optimized for years.. I mean think about that 15 years to ma
 Can be used with tmux or screen to allow multiple users to edit the same file. Great for pair programming
 Plugins/Bundles/SCipts you name it someone has made it
 Github has allowed VIM to thrive even more that it was a few years ago.
-
+Best Help Menu in the world once you learn how to use it.
 PRoblems 
 Lord VIM have mercy on us. 
 The default vanilla setup makes vim terrifing. Except for the purists, hey if you roll like that good for you. Not for me and I wouldn't recommend it for beginners
