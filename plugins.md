@@ -37,6 +37,15 @@ something for compeleting withs and spell check
 tmux
 the_silver_searcher
 
+
+
+##Browser Plugins
+Vimium
+https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CCsQFjAA&url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fvimium%2Fdbepggeogbaibhgnhhndojpepiihcmeb%3Fhl%3Den&ei=NTAhUu2-L9G-sASNjYCIDg&usg=AFQjCNGVEIsfGDVYlqfmpcukjesiUdGsTw&bvm=bv.51495398,d.cWc
+
+The node live refresh with vim. I forget what its called.
+
+
 ###Install with Vundle
 
 Add the following lines to your .vimrc.
