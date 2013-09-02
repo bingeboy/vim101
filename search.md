@@ -1,4 +1,9 @@
-#Running list of Search Commands
+#Search in VIM
+
+Vim offers a full regex style search ability allowing you to be very explicit while searching.
+
+
+
 ```
 /searchterm - Basic Search
 /\<searchterm\> - find only the word
@@ -12,4 +17,22 @@
 n - next search result
 Xn - specific number in result based on where cursor is
 ```
+#SEARCHING Commands
+Supports full regular expressions
+/ - Forward Search
+? - Backward Search
+* - word under the cursor THIS IS RANK THE NUMBER COMMAND IN VIM
+g* - word under the cursor (unbounded)
+# - same as * but backward
+g# - unbounded
+n - NExt result forward
+N - Next result Backward:
+\c - case insensetive for current search
+
+Unboudned means that you can search for fragments of words while bound needs to match exactly
+There is also a setting where you can ingorecase 
+Example:
+:set ignorecase - this will allow you toggle between cases
+
+:s/%s/findthis/replacethis
 

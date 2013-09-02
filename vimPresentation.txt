@@ -1,59 +1,11 @@
-NO MOUSE ALLOWWED
+NO MOUSE ALLOWED
 VERB NOUN relationship
 
-Why should you care. VIM is crossplatform and is instealled on almost all webservers.
+Why should you care. VIM is cross platform and is installed on almost all web servers.
 Good for your health. Reduces wrist pains. (I've been in physical therapy twice in my career and keeping finders on the keyboards helps
 
-Modes
 
-Insert 
-Normal
-Command - like drasitcally changing the document
-
-Commands:
-:e or :edit then target a file to open
-:tabnew
-:tabe
-:set used to setup things that you normally do with a .vimrc
-:3 = jump to line 3 || 3G will also do the same.
-
-To Transfer from insert mode to command mode
-Esc or Ctrl+[
-
-Command mode movements:
-(recommended to not rely on arrow keys by beginners... not always an easy path.
-
-        k
-        ^
-    h<      >l
-        v
-        j
-
-Always try to avoid using the mouse since it will ultimately confuse you. 
-
-You can also jump quick the folling ways:
-10j - execute j command 10 times
-100l - execute l 100 times.
-:30 - moves cursor to line 30 from any where in the file in command mode.
-
-These moveement already will make you a more productive than another editor. Also the wrist cramps do away.
-
-wWbBe
-
-w - will jump you between words
-W - will jump you between words by white space
-b - do the same as w but backards
-B - will do the opposite of W
-
-Jumping characters
-0 - take you to the first character of the line
-$ - take you to the last character of the line
-^ - first non-blank character of the line
-
-cw - changeword
-TEST,HERE CAN YOU SEE M!
-
-A word in vim will move you bewteen word that 
+These movement already will make you a more productive than another editor. Also the wrist cramps do away.
 
 -------------------------------------------------------------------------
 Visual Block Mode
@@ -66,58 +18,6 @@ JUMP BETWEEN CHUNKS OF CODE > FUNCTIONS > ETC This section work in progress
 -------------------------------------------------------------------------
 -------------------------------------------------------------------------
 
-Start of more advanced stuff here: fFtT
-
-f - Forward until 
-F - Backward until
-t - Forward until ~ this will not include the cursor aka exclusive
-T - Back until ~ this will not include the cursor aka exclusive
-
-Copy Paste
------------------------
-
-Load external files into your rc file like bash to keep this in a psuedo module like format.
-
-Example:
-source ~/.vim/startup/commands.vim <- notice these need a .vim extension
-y  -  yank
-yy - yank line Example 2yy will copy 2 lines down this will account the first line as 1 unlike all command in vim that act like array.
-p - paste after cursor
-P - paste before cursor
-
-example: yw - yankword
-
-THis is a test
-THis is a = y3w
-
-These are super powerful and once understood will become ROCKSTAR
-
-Motions
------------
-
-gg - top of file
-G - bottom of file
-ggY - will select the entire file
-
-
-SEARCHING COmmands
-Suuports full regular expressions
-/ - Forward Search
-? - Backward Search
-* - word under the cursor THIS IS RANK THE NUMBER COMMAND IN VIM
-g* - word under the cursor (unbounded)
-# - same as * but backward
-g# - unbounded
-n - NExt result forward
-N - Next result Backward:
-\c - case insensetive for current search
-
-Unboudned means that you can search for fragments of words while bound needs to match exactly
-There is also a setting where you can ingorecase 
-Example:
-:set ignorecase - this will allow you toggle between cases
-
-:s/%s/findthis/replacethis
 
 
 But it is how you enter insert mode that offers some advantage:

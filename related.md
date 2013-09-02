@@ -40,4 +40,6 @@ lists out every session, window, pane, its pid, etc.
 tmux source-file ~/.tmux.conf
 reloads the current tmux configuration (based on a default tmux config)Helpful Tmux commands
 
+Tmux commands:
+<Cntrl+b>s - Switch Sessions
 
