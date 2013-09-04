@@ -20,4 +20,8 @@ P - paste before cursor
 
 example: yw - yankword
 
+####Seclect All And Copy To ClipBoard
+```
+:%y+ or gg%y+
 
+```
