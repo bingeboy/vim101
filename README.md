@@ -7,12 +7,10 @@ This was sourced from a blog post on ibm.com
 
 
 ###Outline
-1. Intro
 1. History Lesson
-1. Evolution to Today
-1. Why use it
-1. Basic Commands
-2. Modes
+2. Flavors of Vim
+1. Benefits
+2. Problems 
 3. Inserting
 4. Deleting
 5. Motion
