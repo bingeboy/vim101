@@ -26,8 +26,8 @@ Learn how to get in an out of insert mode. (see modes) todo:add link here.
 Saving Buffers:
 ```
 :w - Write 
-:q - quite
-:qa - quite all
+:q - quit
+:qa - quit all
 :wqa - write quit all
 :q! - quit without writing
 :qa! - quit all without writing
