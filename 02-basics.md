@@ -21,8 +21,6 @@ Avoid using arrrow keys.
 ###Insert mode
 
 Keys that will take you from normal mode into insert mode
-```
-But it is how you enter insert mode that offers some advantage:
 
 ```
 I	insert at beginning of current line
