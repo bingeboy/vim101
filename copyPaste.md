@@ -13,7 +13,7 @@ d20 - delete 20 lines
 ```
 example:
 
-yw - yankword
+yw - yank word under cursor 
 
 ###Registers
 ```
