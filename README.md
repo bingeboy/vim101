@@ -19,8 +19,6 @@ This was sourced from a blog post on ibm.com
 2. ~/.vim/
 3. Plug-in
 4. Customize
-5. Play
-6. TMUX
 
 
 ###History Lesson
@@ -61,10 +59,5 @@ Elvis is a clone of Vim for Unix. So dude its there.
 
 ##Chapters
 * [Starting With Vim](https://github.com/bingeboy/vim101/blob/master/01-starting.md)
-
-
-###.vimrc
-Loaded when Vim starts.
-###~/.vim/
 
 
