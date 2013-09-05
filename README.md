@@ -74,22 +74,4 @@ Loaded when Vim starts.
 ###Play
 
 
-##Plugins
-Plugins for a Vim-IDE
-
-The following vim scripts give vim more of an IDE feel.
-
-Navigation:
-
-1. TagBar - Code navigation by functions
-1. NERDTree - File system navigation
-1. Command-T - Search a project by filename to open
-1. Text Completion:
-1. SnipMate - Vim version of TextMate snippets
-1. delimitMate - Automatic closing of parentheses, braces.. etc
-1. neocomplcache - auto-completion system for vim
-1. tcomment - Easy comment/uncomment source code commands
-1. Syntastic - Live syntax checking for many languages
-1. fugitive - Git within vim
-1. Gundo - Visualize vim undo history as a tree (my favorite) earlier, later, g+, g-  ||||| Works on time stamps like earlier 30seconds this is mapped to F5
 
