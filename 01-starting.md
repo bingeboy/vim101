@@ -33,7 +33,7 @@ Saving Buffers:
 :qa! - quit all without writing
 ```
 
-###.vim Folder
+###~/.vim Folder
 
 It is strongly recommended to setup a ~/.vim folder.
 
