@@ -1,6 +1,6 @@
 #Basic Commands
 ###normal mode movements
-(recommended to not rely on arrow keys by beginners.
+Recommended to not rely on arrow keys by beginners.
 
 ```
         k
