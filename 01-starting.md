@@ -1,4 +1,4 @@
-#NOOB TO VIM
+#Starting With Vim
 
 First please take these as suggestions if you decide to take the time to learn VIM.
 It's also recommend Before You Begin Setup a ~/.vimrc file if you don't already have one.
