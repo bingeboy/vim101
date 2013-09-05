@@ -1,1 +1,0 @@
-fix snipmate js menu issue
