@@ -1,6 +1,6 @@
 #Regex
 
-Vim has ann expression engine build into it. This allows to do things with Math
+Vim has an expression engine build into it. This allows to do things with Math
 
 
 Convert tabs to spaces

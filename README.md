@@ -1,5 +1,6 @@
 vim101
 ======
+http://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/200px-Vimlogo.svg.png
 
 ![Vim Cheat Sheet](http://michael.peopleofhonoronly.com/vim/vim_cheat_sheet_for_programmers_screen.png)
 This was sourced from a blog post on ibm.com
@@ -52,43 +53,15 @@ vim-ruby         # terminal version with ruby bindings
 vim-tiny         # lightweight terminal version 
 
 ###Benefits:
-These are a few benefits of Vim
+Vim is superior for text manipulation 
+Supported by a large community
 you can avoid using the mouse
-quickly create macros MAKE AN EXAMPLE OF MACRO
-quickly jump around on file/s
 integrated in a command line work flow
-Has been tested and optimized for years.. 
-Can be used with tmux or screen to allow multiple users to edit the same file. Great for pair programming
-You name it someone has made it
-Github has allowed Vim to thrive even more that it was a few years ago.
-Best Help Menu in the world once you learn how to use it.
-Problems 
-Lord Vim have mercy on us. 
-The default vanilla setup makes Vim terrifying. Except for the purists, hey if you roll like that good for you. Not for me and I wouldn't recommend it for beginners
-but roll on with your bad self
+Has been tested and optimized for years
 
-
-###What it is
-Vim is a text editor that can be used in almost every kind of situation. Even if you a type that will never want to leave your current editor I can garruntee that
-you will encounter Vim or VI at some point in time of your career. 
-
-Today many employers of looks for users with Vim experience and more and more tools are command line focused. 
-Typically Vim is setup like this:
-
-~.vimrc
-~.vim/
-    bundles
-    plugins
-    scripts
-    ect
-
-###Where did it come from
-Vim is a text editor written by Bram Moolenaar and first released publicly in 1991. Based on the vi editor common to Unix-like systems, Vim is designed for use both from a command line interface and as a standalone application in a graphical user interface. Vim is free and open source software and is released under a license that includes some charityware clauses, encouraging users who enjoy the software to consider donating to children in Uganda.[3] The license is compatible with the GNU General Public License.
-
-Although Vim was originally released for the Amiga, Vim has since been developed to be cross-platform, supporting many other platforms. In 2006, it was voted the most popular editor amongst Linux Journal readers.[4]
-
-###Why use it
-Never leave terminal. Bye mouse.
+###Problems 
+The default vanilla setup makes Vim terrifying for new users.
+Learning curve can feel substantial
 
 ###How to get started
 

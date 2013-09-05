@@ -1,32 +1,26 @@
-#Intert Mode
+#Insert Mode
 
-Here are the basic instert commands
+Here are the basic insert commands
 
-Motions
------------
-
-gg - top of file
-G - bottom of file
-ggY - will select the entire file
+Insert keys:
+```
+iIsSaAoOC
+```
 
 
 But it is how you enter insert mode that offers some advantage:
 
+```
+a	insert after cursor
+A	insert at end of the line
+I	insert at beginning of current line
 i	insert before character under cursor
-I   insert at first character on line
+O	insert in a new line above current one
+o	starts insert mode in a new line below current one
 s   delete character and instert in character space.
 S   delete line and insert at the begging of the line
-
-a	insert after cursor
-I	insert at beginning of current line
-a   instert mode after character
-A	insert at end of the line
-o	starts insert mode in a new line below current one
-O	insert in a new line above current one
-
-Insert keys:
-iIsSaAoOC
-
+```
+Delete word
 daw - delete word under cursor
 daW - delete WORD under cursor
 

@@ -1,6 +1,6 @@
 #Basic Commands
 ###normal mode movements
-(recommended to not rely on arrow keys by beginners... not always an easy path.
+(recommended to not rely on arrow keys by beginners.
 
 ```
         k
@@ -11,9 +11,6 @@
 
 ```
 
-Always try to avoid using the mouse since it will ultimately confuse you. 
-
-You can also jump quick the folling ways:
 
 ```
 10j - execute j command 10 times
@@ -21,14 +18,14 @@ You can also jump quick the folling ways:
 :30 - moves cursor to line 30 from any where in the file in command mode.
 
 ```
+####Motions
+
+gg - top of file
+G - bottom of file
+ggY - will select the entire file
+
+
 These movement already will make you a more productive than another editor.
-
-mode movements:
-Modes
-
-Insert 
-Normal
-Command - like drastically changing the document
 
 Commands:
 
@@ -77,4 +74,28 @@ T - Back until ~ this will not include the cursor aka exclusive
 
 ```
 *Note: I do use the easy-motion plug-in for a similar type of movement here, there is also stupid motion which is similar but not support blocks/paragraphs*
+
+###How to get started
+
+First lean how to insert.
+Then learn how to go between insert mode, normal mode, command mode.
+ESC if your best friend
+Dont be scared
+Think out the actions you want to make
+
+Don't heavily rely on the arrow keys. you will hit many servers where these are disabled,
+in fact if you take a Vim course in school this is one of the points they touch on over and over again
+Start out slow
+Make a cheat sheet
+
+#####Key Strokes
+i
+I
+a
+A
+cc
+y
+dd -   
+dNUM
+:NUM
 
