@@ -19,8 +19,36 @@ Avoid using arrrow keys.
 
 ```
 ###Insert mode
+
+Keys that will take you from normal mode into insert mode
+```
+But it is how you enter insert mode that offers some advantage:
+
+```
+I	insert at beginning of current line
+i	insert before character under cursor
+a	insert after cursor
+A	insert at end of the line
+o	starts insert mode in a new line below current one
+O       insert in a new line above current one
+s       delete character and instert in character space.
+S       delete line and insert at the begging of the line
+```
+Insert keys:
+```
+iIsSaAoOC
+```
+
+Example of using key together to make an action.
+```
+daw - delete word under cursor
+daW - delete WORD under cursor
+```
+
 To Transfer from insert mode to command mode
+```
 Esc or Ctrl+[
+```
 
 ###Moving Words and Characters
 
