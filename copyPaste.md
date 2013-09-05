@@ -1,27 +1,33 @@
-#Copy and Paste (Really Yank and Put)
+#Yank Put & Delete
 
+Commands:
+```
+y  -  yank
+yy - yank line Example 2yy will copy 2 lines down this will account the first line as 1 unlike all command in vim that act like array.
+p - paste after cursor
+P - paste before cursor
+d - delete
+dd - delete line
+d20 - delete 20 lines
+
+```
+example:
+
+yw - yankword
+
+###Registers
 ```
 :reg or :registers
 ```
 
 Will show you what you have stored in registers and allow to have a mutli clipboard like util at you finger tips.
+```
+"2p - put whats in the 2nd register to buffer
+```
 
 
-Yank and Put
-
-Load external files into your rc file like bash to keep this in a psuedo module like format.
-
-Example:
-source ~/.vim/startup/commands.vim <- notice these need a .vim extension
-y  -  yank
-yy - yank line Example 2yy will copy 2 lines down this will account the first line as 1 unlike all command in vim that act like array.
-p - paste after cursor
-P - paste before cursor
-
-example: yw - yankword
-
-####Seclect All And Copy To ClipBoard
+####Seclect All And Copy/Delete To ClipBoard
 ```
 :%y+ or gg%y+
-
+:%d+ or gg%d+
 ```
