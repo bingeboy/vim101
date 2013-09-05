@@ -3,7 +3,7 @@
 Commands:
 ```
 y  -  yank
-yy - yank line Example 2yy will copy 2 lines down this will account the first line as 1 unlike all command in vim that act like array.
+yy - yank line
 p - paste after cursor
 P - paste before cursor
 d - delete
