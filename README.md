@@ -35,7 +35,9 @@ The Vim started as "Vi IMitation" on the Amiga in 1988, but was later relabeled 
 Vim is written in C and Vimscript.
 
 Vim comes pre installed in almost every version of Linux, and is also one of the default editors on OSX, yes there is a version of windows, the Amiga, on and on.
-Elvis is a clone of Vim for Unix. So dude its there.
+Elvis is a clone of Vim for Unix. 
+
+Sources: http://en.wikipedia.org/wiki/Vi
 
 ##Flavors of Vim 
 * GVim ~ Mac Vim the same thing just not bound to a terminal session.
