@@ -47,6 +47,7 @@ Sources: http://en.wikipedia.org/wiki/Vi
 * [Starting With Vim](https://github.com/bingeboy/vim101/blob/master/01-starting.md)
 * [Basics](https://github.com/bingeboy/vim101/blob/master/02-basics.md)
 * [Modes](https://github.com/bingeboy/vim101/blob/master/03-modes.md)
+* [Yank Put Delete](https://github.com/bingeboy/vim101/blob/master/copyPaste.md)
 * Plugins 
 * Customize
 
