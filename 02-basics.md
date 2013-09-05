@@ -18,7 +18,7 @@ Avoid using arrrow keys.
 :30 - moves cursor to line 30 from any where in the file in command mode.
 
 ```
-###insert mode
+###Insert mode
 To Transfer from insert mode to command mode
 Esc or Ctrl+[
 
@@ -58,18 +58,12 @@ T - Back until ~ this will not include the cursor aka exclusive
 ```
 *Note: I do use the easy-motion plug-in for a similar type of movement here, there is also stupid motion which is similar but not support blocks/paragraphs*
 
-###How to get started
+###How to get started with editing
 
-First lean how to insert.
-Then learn how to go between insert mode, normal mode, command mode.
-ESC if your best friend
-Dont be scared
-Think out the actions you want to make
-
-Don't heavily rely on the arrow keys. you will hit many servers where these are disabled,
-in fact if you take a Vim course in school this is one of the points they touch on over and over again
-Start out slow
-Make a cheat sheet
+* Learn how to go between insert mode, normal mode, command mode.
+* ESC if your best friend
+* Dont be scared and think out the actions you want to make.
+* Make a cheat sheet
 
 #####Key Strokes
 i
