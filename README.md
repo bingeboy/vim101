@@ -5,22 +5,6 @@ http://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/200px-Vimlo
 ![Vim Cheat Sheet](http://michael.peopleofhonoronly.com/vim/vim_cheat_sheet_for_programmers_screen.png)
 This was sourced from a blog post on ibm.com
 
-
-###Outline
-1. History Lesson
-2. Flavors of Vim
-1. Benefits
-2. Problems 
-3. Inserting
-4. Deleting
-5. Motion
-6. Opening Files
-1. .vimrc
-2. ~/.vim/
-3. Plug-in
-4. Customize
-
-
 ###History Lesson
 
 The original code for VI(which later spun off into Vim), was written by Bill Joy in 1976, as the visual mode for a line editor called ex.
@@ -63,5 +47,7 @@ Sources: http://en.wikipedia.org/wiki/Vi
 * [Starting With Vim](https://github.com/bingeboy/vim101/blob/master/01-starting.md)
 * [Basics](https://github.com/bingeboy/vim101/blob/master/02-basics.md)
 * [Modes](https://github.com/bingeboy/vim101/blob/master/03-modes.md)
+* Plugins 
+* Customize
 
 
