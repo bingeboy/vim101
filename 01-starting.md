@@ -10,10 +10,6 @@ brew install vim
 ```
 
 
-An [example](https://github.com/bingeboy/vim101/blob/master/examples/node.js)
-
-
-
 ###Basics
 Opening a file.
 An [example](http://url.com/ "Title")
