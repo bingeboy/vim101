@@ -61,17 +61,12 @@ Elvis is a clone of Vim for Unix. So dude its there.
 * Learning curve can feel substantial
 
 
-LINK TO CHAPTER 1 HERE
-
+##Chapters
+* [Starting With Vim](https://github.com/bingeboy/vim101/blob/master/01-starting.md)
 
 
 ###.vimrc
 Loaded when Vim starts.
 ###~/.vim/
-###Plugins
-
-###Customize
-###Play
-
 
 
