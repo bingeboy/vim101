@@ -5,13 +5,6 @@ execute pathogen#infect('bundle/{}', '~/.vim/bundle/{}')
 " mapping of leader key. \ is default
 let mapleader=","
 
-" path for vundle
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-
-" let Vundle manage Vundle
-" required! 
-"Bundle 'gmarik/vundle'
 syntax on  "Enables syntax highlighting for programming languages
 set mouse=a  "Allows you to click around the text editor with your mouse to move the cursor
 set showmatch "Highlights matching brackets in programming languages
