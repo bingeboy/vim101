@@ -88,17 +88,8 @@ T - Back until ~ this will not include the cursor aka exclusive
 
 * Learn how to go between insert mode, normal mode, command mode.
 * ESC if your best friend
-* Dont be scared and think out the actions you want to make.
+* Don't be scared and think out the actions you want to make.
 * Make a cheat sheet
 
-#####Key Strokes
-i
-I
-a
-A
-cc
-y
-dd -   
-dNUM
-:NUM
+
 
