@@ -12,12 +12,16 @@ brew install vim
 
 ###Basics
 Opening a file.
-An [example](http://url.com/ "Title")
-
+```
 $vim
+:e filename
+:tabe filename
+:split filename
+:vsplit filename
 
+```
 
-Learn how to get in an out of insert mode.
+Learn how to get in an out of insert mode. (see modes) todo:add link here.
 
 Saving Buffers:
 ```
