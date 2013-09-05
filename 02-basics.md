@@ -1,5 +1,5 @@
 #Basic Commands
-###normal mode movements
+###normal mode
 Avoid using arrrow keys.
 
 ```
@@ -18,26 +18,7 @@ Avoid using arrrow keys.
 :30 - moves cursor to line 30 from any where in the file in command mode.
 
 ```
-####Motions
-
-gg - top of file
-G - bottom of file
-ggY - will select the entire file
-
-
-These movement already will make you a more productive than another editor.
-
-Commands:
-
-```
-:e or :edit then target a file to open
-:tabnew
-:tabe
-:set used to setup things that you normally do with a .vimrc
-:3 = jump to line 3 || 3G will also do the same.
-
-```
-
+###insert mode
 To Transfer from insert mode to command mode
 Esc or Ctrl+[
 
@@ -54,13 +35,15 @@ B - will do the opposite of W
 
 ```
 
-###Jumping Lines
+####Line movement (nmode)
 
 ```
 0 - take you to the first character of the line
 $ - take you to the last character of the line
 ^ - first non-blank character of the line
 ```
+This is also a plugin called easy-motion that can behelpful for these movements and work with blocks of content also.
+
 
 ###Forward Until 
 
