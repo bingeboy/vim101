@@ -39,5 +39,3 @@ spell reqoninzes functions and var names
 
 vim scp://username@servercom/pathtofiles/
 
-Keep a cheat sheet on hand
-Also there in everythign in life there if more than one way to do certain commands so do what youfeel comfortable with and try a couple new commands every week. You will find some you like some on dont think you will ever use. See what works for you. 
