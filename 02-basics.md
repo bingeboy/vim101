@@ -42,6 +42,14 @@ Example of using key together to make an action.
 daw - delete word under cursor
 daW - delete WORD under cursor
 ```
+You can also enter insert mode by replacing existing text at the same time:
+
+```
+ciw	("change inner word") change word under cursor
+ci"	change double-quoted string (but keep the quotes)
+ci(	change text between matching parentheses, also works with brackets
+cc	change whole line
+```
 
 To Transfer from insert mode to command mode
 ```
