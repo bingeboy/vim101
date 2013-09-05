@@ -1,4 +1,4 @@
-#VIM Plugins
+#Vim Plugins
 
 The following are a list of plugins that I'm currently using. These are just suggestions and don't take them as rhetoric.
 1. CSApprox
@@ -13,7 +13,7 @@ The following are a list of plugins that I'm currently using. These are just sug
 1. ctrlp.vim - Search from with in folder
 1. nerdtree - Creates a tree like project similar to many texteditors
 1. pathogen - Another plugin manger tool
-1. powerline - You like a nice sexy bottom bar in VIM, well here you go kid.
+1. powerline - You like a nice sexy bottom bar in Vim, well here you go kid.
 1. sparkup - 
 1. syntastic - 
 1. tabular - imporved tabbing
@@ -25,7 +25,7 @@ The following are a list of plugins that I'm currently using. These are just sug
 1. vim-powerline - 
 1. vim-repeat - Adds "." to repeat in a few popular plugins
 1. vim-sensible
-1. vim-snipmate - The Textmate bundles of VIM
+1. vim-snipmate - The Textmate bundles of Vim
 1. vim-surround
 1. vundle
 1. vundle - Handles plugins
@@ -43,7 +43,7 @@ the_silver_searcher
 Vimium
 https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CCsQFjAA&url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fvimium%2Fdbepggeogbaibhgnhhndojpepiihcmeb%3Fhl%3Den&ei=NTAhUu2-L9G-sASNjYCIDg&usg=AFQjCNGVEIsfGDVYlqfmpcukjesiUdGsTw&bvm=bv.51495398,d.cWc
 
-The node live refresh with vim. I forget what its called.
+The node live refresh with Vim. I forget what its called.
 
 
 ###Install with Vundle
@@ -53,3 +53,17 @@ Add the following lines to your .vimrc.
 Bundle 'mattn/webapi-vim'
 Bundle 'mattn/gist-vim'
 Now restart Vim and run :BundleInstall.
+
+##Plugins
+
+1. TagBar - Code navigation by functions
+1. NERDTree - File system navigation
+1. Command-T - Search a project by filename to open
+1. SnipMate - Vim version of TextMate snippets
+1. delimitMate - Automatic closing of parentheses, braces.. etc
+1. neocomplcache - auto-completion system for Vim
+1. tcomment - Easy comment/uncomment source code commands
+1. Syntastic - Live syntax checking for many languages
+1. fugitive - Git and Gist within Vim
+1. Gundo - Visualize Vim undo history as a tree (my favorite) earlier, later, g+, g-  ||||| Works on time stamps like earlier 30seconds this is mapped to F5
+

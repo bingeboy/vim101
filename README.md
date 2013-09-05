@@ -42,49 +42,28 @@ Vim comes pre installed in almost every version of Linux, and is also one of the
 Elvis is a clone of Vim for Unix. So dude its there.
 
 ##Flavors of Vim 
-GVim ~ Mac Vim the same thing just not bound to a terminal session.
-
-vim-gnome        # GUI version for Gnome
-vim-gtk          # GUI version for GTK
-vim              # terminal version
-vim-perl         # terminal version with perl bindings
-vim-python       # terminal version with python bindings
-vim-ruby         # terminal version with ruby bindings
-vim-tiny         # lightweight terminal version 
+* GVim ~ Mac Vim the same thing just not bound to a terminal session.
+* vim-gnome      # GUI version for Gnome
+* vim-perl       # terminal version with perl bindings
+* vim-python       # terminal version with python bindings
+* vim-ruby         # terminal version with ruby bindings
+* vim-tiny         # lightweight terminal version 
 
 ###Benefits:
-Vim is superior for text manipulation 
-Supported by a large community
-you can avoid using the mouse
-integrated in a command line work flow
-Has been tested and optimized for years
+* Vim is superior for text manipulation 
+* Supported by a large community
+* you can avoid using the mouse
+* integrated in a command line work flow
+* Has been tested and optimized for years
 
 ###Problems 
-The default vanilla setup makes Vim terrifying for new users.
-Learning curve can feel substantial
+* The default vanilla setup makes Vim terrifying for new users.
+* Learning curve can feel substantial
 
-###How to get started
 
-First lean how to insert.
-Then learn how to go between insert mode, normal mode, command mode.
-ESC if your best friend
-Dont be scared
-Think out the actions you want to make
-Don't heavily rely on the arrow keys. you will hit many servers where these are disabled,
-in fact if you take a Vim course in school this is one of the points they touch on over and over again
-Start out slow
-Make a cheat sheet
+LINK TO CHAPTER 1 HERE
 
-#####Key Strokes
-i
-I
-a
-A
-cc
-y
-dd -   
-dNUM
-:NUM
+
 
 ###.vimrc
 Loaded when Vim starts.
@@ -106,13 +85,10 @@ Navigation:
 1. NERDTree - File system navigation
 1. Command-T - Search a project by filename to open
 1. Text Completion:
- 
 1. SnipMate - Vim version of TextMate snippets
 1. delimitMate - Automatic closing of parentheses, braces.. etc
 1. neocomplcache - auto-completion system for vim
 1. tcomment - Easy comment/uncomment source code commands
- Just awesome:
- 
 1. Syntastic - Live syntax checking for many languages
 1. fugitive - Git within vim
 1. Gundo - Visualize vim undo history as a tree (my favorite) earlier, later, g+, g-  ||||| Works on time stamps like earlier 30seconds this is mapped to F5
