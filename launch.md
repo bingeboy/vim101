@@ -1,5 +1,7 @@
 #Launching VIM
 
+Some different methods of opening stuff with Vim.
+
 ```
 $vim file
 $v file
