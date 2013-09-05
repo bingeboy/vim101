@@ -51,6 +51,7 @@ Sources: http://en.wikipedia.org/wiki/Vi
 * [Search](https://github.com/bingeboy/vim101/blob/master/search.md)
 * Plugins 
 * Customize
+* [Macros](https://github.com/bingeboy/vim101/blob/master/macro.md)
 * [Launching](https://github.com/bingeboy/vim101/blob/master/launch.md)
 
 
