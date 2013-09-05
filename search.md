@@ -26,9 +26,9 @@ Supports full regular expressions
 g* - word under the cursor (unbounded)
 # - same as * but backward
 g# - unbounded
-n - NExt result forward
+n - Next result forward
 N - Next result Backward:
-\c - case insensetive for current search
+\c - case insensitive for current search
 
 ```
 Unbounded means that you can search for fragments of words while bound needs to match exactly
