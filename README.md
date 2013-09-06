@@ -56,5 +56,5 @@ Sources: http://en.wikipedia.org/wiki/Vi
 * [Macros](https://github.com/bingeboy/vim101/blob/master/macro.md)
 * [Launching](https://github.com/bingeboy/vim101/blob/master/launch.md)
 * [tmux a nice compliment to vim]()
-* [Other Amazing Content](https://github.com/bingeboy/vim101/blob/master/launch.md)
+* [Amazing Vim Content](https://github.com/bingeboy/vim101/blob/master/related.md)
 
