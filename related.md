@@ -1,6 +1,6 @@
 #Related Info
 
-###TMUX
+###TMUX A Great Compliment to Vim 
 http://robots.thoughtbot.com/post/2641409235/a-tmux-crash-course
 
 ####Sessions
@@ -30,7 +30,7 @@ tmux select-pane -t :.+
 selects the next pane in numerical order
 
 Helpful Tmux commands
-
+```
 tmux list-keys
 lists out every bound key and the tmux command it runs
 tmux list-commands
@@ -39,7 +39,5 @@ tmux info
 lists out every session, window, pane, its pid, etc.
 tmux source-file ~/.tmux.conf
 reloads the current tmux configuration (based on a default tmux config)Helpful Tmux commands
-
-Tmux commands:
 <Cntrl+b>s - Switch Sessions
-
+```
