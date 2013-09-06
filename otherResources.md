@@ -11,3 +11,5 @@ Here is a bunch of sources that I have found extremely helpful while picking up 
 ###Podcast
 * [vimcast](http://vimcasts.org/)
 
+###Online Book
+* [Learn Vimscript The hardway](http://learnvimscriptthehardway.stevelosh.com/)
