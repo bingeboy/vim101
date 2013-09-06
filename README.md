@@ -55,6 +55,6 @@ Sources: http://en.wikipedia.org/wiki/Vi
 * [Customize Look](http://bytefluent.com/vivify/)
 * [Macros](https://github.com/bingeboy/vim101/blob/master/macro.md)
 * [Launching](https://github.com/bingeboy/vim101/blob/master/launch.md)
-* [tmux a nice compliment to vim]()
-* [Amazing Vim Content](https://github.com/bingeboy/vim101/blob/master/related.md)
+* [tmux a nice compliment to vim](https://github.com/bingeboy/vim101/blob/master/related.md)
+* [Amazing Vim Content]()
 
