@@ -9,6 +9,7 @@ Esc - Normal mode (also Cntrl+[ )
 v - visual mode
 Cntrl+v - visual block mode
 :! - ex mode
+R - replace mode
 ```
 
 These three will be your primary modes you move in and out of.
