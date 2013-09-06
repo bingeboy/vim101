@@ -37,6 +37,7 @@ Sources: http://en.wikipedia.org/wiki/Vi
 * you can avoid using the mouse
 * integrated in a command line work flow
 * Has been tested and optimized for years
+* Can potentially lengthen your programming career 
 
 ###Problems 
 * The default vanilla setup makes Vim terrifying for new users.
