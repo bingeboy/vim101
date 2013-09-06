@@ -43,7 +43,7 @@ Sources: http://en.wikipedia.org/wiki/Vi
 * Learning curve can feel substantial
 
 
-#####UPDATE FEWDERS SINCE PRESO TIME WAS A LITTLE CRUNCHED I HAVE ADDED A FINAL CHAPTER WITH SOME VIDEOS AND OTHER RESOURCES.
+#####UPDATE: FEWDERS SINCE PRESO TIME WAS A LITTLE CRUNCHED I HAVE ADDED A FINAL CHAPTER WITH SOME VIDEOS AND OTHER RESOURCES.
 
 ##Chapters
 * [Starting With Vim](https://github.com/bingeboy/vim101/blob/master/01-starting.md)
