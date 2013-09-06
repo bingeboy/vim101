@@ -37,6 +37,6 @@ Example Pattern:
 ```
 :set ignorecase - this will allow you toggle between cases
 
-:s/%s/findthis/replacethis
+:%s/findthis/replacethis
 
 ```
