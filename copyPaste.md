@@ -17,7 +17,9 @@ yw - yank word under cursor
 
 ###Registers
 ```
-:reg or :registers
+:reg or :registers - Display registers
+"kyy - copying a register into k
+"Kyy - append a register into k
 ```
 
 Will show you what you have stored in registers and allow to have a mutli clipboard like util at you finger tips.
