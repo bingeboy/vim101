@@ -53,6 +53,7 @@ Sources: http://en.wikipedia.org/wiki/Vi
 * [Yank Put Delete](https://github.com/bingeboy/vim101/blob/master/copyPaste.md)
 * [Search](https://github.com/bingeboy/vim101/blob/master/search.md)
 * [Regex](https://github.com/bingeboy/vim101/blob/master/regex.md)
+* [Working with Files](https://github.com/bingeboy/vim101/blob/master/04-files.md)
 * [Plugins](https://github.com/bingeboy/vim101/blob/master/plugins.md) 
 * [Customize Look](http://bytefluent.com/vivify/)
 * [Macros](https://github.com/bingeboy/vim101/blob/master/macro.md)
