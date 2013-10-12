@@ -2,6 +2,9 @@
 
 Here is a bunch of sources that I have found extremely helpful while picking up Vim.
 
+###Utter Hotness / Tuts
+* [Line Numbering](http://jeffkreeftmeijer.com/2012/relative-line-numbers-in-vim-for-super-fast-movement/)
+
 ###Videos
 * http://www.youtube.com/watch?v=Nim4_f5QUxA
 * http://www.youtube.com/watch?v=2pqipq-UEwQ
