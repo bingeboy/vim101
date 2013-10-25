@@ -6,11 +6,24 @@ y  -  yank
 yy - yank line
 p - paste after cursor
 P - paste before cursor
-d - delete
+d - delete cursor
 dd - delete line
 d20 - delete 20 lines
 
 ```
+
+Other goodies for deleting
+
+```
+Assuming you are starting in normal mode: 
+
+:%d - delete all
+d0 - delete after cursor 
+C - delete after cursor and interst mode
+
+```
+
+
 example:
 
 yw - yank word under cursor 
