@@ -6,7 +6,7 @@ y  -  yank
 yy - yank line
 p - paste after cursor
 P - paste before cursor
-d - delete cursor
+d - delete 
 dd - delete line
 d20 - delete 20 lines
 
@@ -19,7 +19,9 @@ Assuming you are starting in normal mode:
 
 :%d - delete all
 d0 - delete after cursor 
-C - delete after cursor and interst mode
+C - delete after cursor and switch to insert mode
+s - delete cursor and instert mode
+x - delete under cursor
 
 ```
 
