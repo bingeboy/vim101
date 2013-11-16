@@ -48,3 +48,15 @@ List of mappings
 * nmap <silent> <Up> gk
 * nmap <silent> G  Gzz
 * nmap <silent> <C-D> :NERDTreeToggle<CR>
+* nmap <F8> :TagbarToggle<CR>
+* nmap <F5>:GundoToggle<CR>
+
+
+`
+if exists(":Tabularize")
+  nmap <Leader>a= :Tabularize /=<CR>
+  vmap <Leader>a= :Tabularize /=<CR>
+  nmap <Leader>a: :Tabularize /:\zs<CR>
+  vmap <Leader>a: :Tabularize /:\zs<CR>
+endif
+`
