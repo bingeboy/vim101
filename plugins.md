@@ -33,3 +33,18 @@ The following are a list of plugins that I'm currently using.
 I've never seen anyone able to browse the web as fast as a Vimium user. Also a great method for beginners to get familar with Vim patterns.
 * [Vimium, make Chrome act like Vim.](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CCsQFjAA&url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fvimium%2Fdbepggeogbaibhgnhhndojpepiihcmeb%3Fhl%3Den&ei=NTAhUu2-L9G-sASNjYCIDg&usg=AFQjCNGVEIsfGDVYlqfmpcukjesiUdGsTw&bvm=bv.51495398,d.cWc)
 
+## Mappings
+
+List of mappings 
+* let mapleader=","
+* map <leader>n :vnew<cr>
+* imap <silent> <Down> <C-o>gj
+* imap <silent> <Up> <C-o>gk
+* nmap <silent> <Down> gj
+* nmap <silent> <Up> gk
+* imap <silent> <Down> <C-o>gj
+* imap <silent> <Up> <C-o>gk
+* nmap <silent> <Down> gj
+* nmap <silent> <Up> gk
+* nmap <silent> G  Gzz
+* nmap <silent> <C-D> :NERDTreeToggle<CR>
