@@ -6,7 +6,7 @@ Running list commands to work with files.
 In command mode you can view all buffers that are currently active.
 ```
 :buffers - Displays a list of buffers with numbers 
-:buffers 2 - switches to the 2nd buffer in the list. 
+:buffer 2 - switches to the 2nd buffer in the list. 
 ```
 
 
