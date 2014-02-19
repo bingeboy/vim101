@@ -18,7 +18,7 @@ The following are a list of plugins that I'm currently using.
 * syntastic - 
 * tagbar - Show project functions, classes, etc in view
 * vim-easymotion - quickly search in file
-* vim-fugitive - 
+* vim-fugitive - [Git wrapper](https://github.com/tpope/vim-fugitive) 
 * vim-haml - haml,scss,less
 * vim-javascript - js syntax support
 * vim-repeat - Adds "." to repeat in a few popular plugins
