@@ -40,3 +40,8 @@ Example Pattern:
 :%s/findthis/replacethis
 
 ```
+
+Remove White Space/Blank Lines
+```
+:g/^\s*$/d
+```
