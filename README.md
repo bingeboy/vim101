@@ -62,3 +62,7 @@ Sources: http://en.wikipedia.org/wiki/Vi
 * [Amazing Vim Content](https://github.com/bingeboy/vim101/blob/master/otherResources.md)
 
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/bingeboy/vim101/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
