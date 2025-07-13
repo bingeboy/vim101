@@ -42,6 +42,8 @@ nmap <silent> G  Gzz
 set cpo-=<
 set wcm=<C-Z>
 
-"Set up the clipboard to be shared across termi windows, note this might have
-"to change depending on what version of Vim and OS you are running."
-set clipboard+=unnamed
+"X System support for clipboard"
+if has('clipboard')
+  set clipboard=unnamed, unnamedplus
+endif
+
