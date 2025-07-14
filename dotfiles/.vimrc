@@ -44,6 +44,6 @@ set wcm=<C-Z>
 
 "X System support for clipboard"
 if has('clipboard')
-  set clipboard=unnamed, unnamedplus
+  set clipboard=unnamed,unnamedplus
 endif
 
