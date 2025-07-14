@@ -1,4 +1,4 @@
-#Insert Mode
+# Insert Mode
 
 Here are the basic insert commands
 

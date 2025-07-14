@@ -1,4 +1,4 @@
-#Regex
+# Regex
 
 Vim has an expression engine build into it. TODO:Expand on this and provide more examples. - JPM
 

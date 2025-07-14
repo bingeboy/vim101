@@ -1,5 +1,5 @@
-#Basic Commands
-###normal mode
+# Basic Commands
+### normal mode
 Avoid using arrrow keys.
 
 ```
@@ -18,7 +18,7 @@ Avoid using arrrow keys.
 :30 - moves cursor to line 30 from any where in the file in command mode.
 
 ```
-###Insert mode
+### Insert mode
 
 Keys that will take you from normal mode into insert mode
 
@@ -56,7 +56,7 @@ To Transfer from insert mode to command mode
 Esc or Ctrl+[
 ```
 
-###Moving Words and Characters
+### Moving Words and Characters
 
 ```
 
@@ -69,7 +69,7 @@ B - will do the opposite of W
 
 ```
 
-####Line movement (nmode)
+#### Line movement (nmode)
 
 ```
 0 - take you to the first character of the line
@@ -79,7 +79,7 @@ $ - take you to the last character of the line
 This is also a plugin called easy-motion that can behelpful for these movements and work with blocks of content also.
 
 
-###Forward Until 
+### Forward Until 
 
 ```
 fFtT
@@ -92,7 +92,7 @@ T - Back until ~ this will not include the cursor aka exclusive
 ```
 *Note: I do use the easy-motion plug-in for a similar type of movement here, there is also stupid motion which is similar but not support blocks/paragraphs*
 
-###How to get started with editing
+### How to get started with editing
 
 * Learn how to go between insert mode, normal mode, command mode.
 * ESC if your best friend

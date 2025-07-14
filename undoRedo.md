@@ -1,4 +1,4 @@
-#Undo Redo Earlier Later
+# Undo Redo Earlier Later
 
 Vim unlike many editors keeps what you can visualize as a tree like structure.
 Unlike most editors that that allow you to undo changes and once saved cut off all edits you had made past that point.
@@ -6,7 +6,7 @@ Unlike most editors that that allow you to undo changes and once saved cut off a
 Vim timestamps each change you make allowing you to traverse time along withundo and redo in order of changes. Gundo is a great plug-in that allows you to see this visually and easily hope around to different versions of your file.
 
 
-####Example Commands
+#### Example Commands
 ```
 :undo  - undo
 u- undo

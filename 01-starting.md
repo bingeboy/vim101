@@ -1,4 +1,4 @@
-#Starting With Vim
+# Starting With Vim
 
 ```
 vimtutor
@@ -15,7 +15,7 @@ brew install vim
 ```
 
 
-###Basics
+### Basics
 Opening a file.
 ```
 $vim
@@ -38,11 +38,11 @@ Saving Buffers:
 :qa! - quit all without writing
 ```
 
-###~/.vim Folder
+### ~/.vim Folder
 
 It is strongly recommended to setup a ~/.vim folder.
 
-#####Necessary/Suggested Sub Directories
+##### Necessary/Suggested Sub Directories
 ```
 autoload
 bundle

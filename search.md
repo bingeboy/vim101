@@ -1,4 +1,4 @@
-#Search in VIM
+# Search in VIM
 
 Vim offers a full regex style search ability allowing you to be very explicit while searching.
 
@@ -17,7 +17,7 @@ Vim offers a full regex style search ability allowing you to be very explicit wh
 n - next search result
 Xn - specific number in result based on where cursor is
 ```
-#Command Mode Searches
+# Command Mode Searches
 Supports full regular expressions
 ```
 / - Forward Search
