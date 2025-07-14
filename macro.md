@@ -1,8 +1,8 @@
-#Macros
+# Macros
 
 Creating macros in Vim is quick straight forward and easy to run once you get the pattern down.
 
-###How to 
+### How to 
 Being and end marcos with q
 
 ```

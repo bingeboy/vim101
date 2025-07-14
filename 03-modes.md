@@ -1,4 +1,4 @@
-#Vim Modes
+# Vim Modes
 
 Vim has many different modes. Typically you will use the following:
 

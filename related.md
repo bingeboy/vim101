@@ -1,9 +1,9 @@
-#Related Info
+# Related Info
 
-###TMUX A Great Compliment to Vim 
+### TMUX A Great Compliment to Vim 
 http://robots.thoughtbot.com/post/2641409235/a-tmux-crash-course
 
-####Sessions
+#### Sessions
 
 tmux new -s session_name
 creates a new tmux session named session_name
@@ -17,7 +17,7 @@ tmux detach (prefix + d)
 detach the currently attached session
 
 
-####Windows
+#### Windows
 tmux split-window (prefix + ")
 splits the window into two vertical panes
 tmux split-window -h (prefix + %)

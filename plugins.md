@@ -1,4 +1,4 @@
-#Vim Plugins
+# Vim Plugins
 
 The following are a list of plugins that I'm currently using.
 

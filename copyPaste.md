@@ -1,4 +1,4 @@
-#Yank Put & Delete
+# Yank Put & Delete
 
 Commands:
 ```
@@ -30,7 +30,7 @@ example:
 
 yw - yank word under cursor 
 
-###Registers
+### Registers
 ```
 :reg or :registers - Display registers
 "kyy - copying a register into k
@@ -43,7 +43,7 @@ Will show you what you have stored in registers and allow to have a mutli clipbo
 ```
 
 
-####Seclect All And Copy/Delete To ClipBoard
+#### Seclect All And Copy/Delete To ClipBoard
 ```
 :%y+ or gg%y+
 :%d+ or gg%d+

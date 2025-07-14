@@ -1,4 +1,4 @@
-#Launching VIM
+# Launching VIM
 
 Some different methods of opening stuff with Vim.
 

@@ -2,10 +2,9 @@ vim101
 ======
 ![](http://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/200px-Vimlogo.svg.png)
 
-![Vim Cheat Sheet](http://michael.peopleofhonoronly.com/vim/vim_cheat_sheet_for_programmers_screen.png)
-This was sourced from a blog post on ibm.com
+This repo was refferenced in a talk I gave 12+ years ago. It covers some neat features I've used in Vim. Additionally there is a `.vimrc` file I typically symlink my `~/.vimrc` file to. 
 
-###History Lesson
+### History Lesson
 
 The original code for VI(which later spun off into Vim), was written by Bill Joy in 1976, as the visual mode for a line editor called ex.
 Bill Joy later became a Co Founder of Sun, in 1982.
@@ -23,7 +22,7 @@ Elvis is a clone of Vim for Unix.
 
 Sources: http://en.wikipedia.org/wiki/Vi
 
-##Flavors of Vim 
+## Flavors of Vim 
 * GVim ~ Mac Vim the same thing just not bound to a terminal session.
 * vim-gnome      # GUI version for Gnome
 * vim-perl       # terminal version with perl bindings
@@ -31,7 +30,7 @@ Sources: http://en.wikipedia.org/wiki/Vi
 * vim-ruby         # terminal version with ruby bindings
 * vim-tiny         # lightweight terminal version 
 
-###Benefits:
+### Benefits:
 * Vim is superior for text manipulation 
 * Supported by a large community
 * you can avoid using the mouse
@@ -39,14 +38,14 @@ Sources: http://en.wikipedia.org/wiki/Vi
 * Has been tested and optimized for years
 * Can potentially lengthen your programming career 
 
-###Problems 
+### Problems 
 * The default vanilla setup makes Vim terrifying for new users.
 * Learning curve can feel substantial
 
 
-#####UPDATE: FEWDERS SINCE PRESO TIME WAS A LITTLE CRUNCHED I HAVE ADDED A FINAL CHAPTER WITH SOME VIDEOS AND OTHER RESOURCES.
+##### UPDATE: FEWDERS SINCE PRESO TIME WAS A LITTLE CRUNCHED I HAVE ADDED A FINAL CHAPTER WITH SOME VIDEOS AND OTHER RESOURCES.
 
-##Chapters
+## Chapters
 * [Starting With Vim](https://github.com/bingeboy/vim101/blob/master/01-starting.md)
 * [Basics](https://github.com/bingeboy/vim101/blob/master/02-basics.md)
 * [Modes](https://github.com/bingeboy/vim101/blob/master/03-modes.md)
@@ -60,9 +59,4 @@ Sources: http://en.wikipedia.org/wiki/Vi
 * [Launching](https://github.com/bingeboy/vim101/blob/master/launch.md)
 * [tmux a nice compliment to vim](https://github.com/bingeboy/vim101/blob/master/related.md)
 * [Amazing Vim Content](https://github.com/bingeboy/vim101/blob/master/otherResources.md)
-
-
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/bingeboy/vim101/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
